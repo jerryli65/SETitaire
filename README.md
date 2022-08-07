@@ -1,18 +1,23 @@
-## Getting Started
+## SETitaire: The Crossover of Two Loved Card Games
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+SETitaire is a crossover of the popular card games of SET and Solitaire. With the familiar 81 cards of the SET deck combined with the unique pile format of Solitaire, the game provides an unusual way to practice pattern recognition skills. 
 
-## Folder Structure
+## Languages and Technologies
 
-The workspace contains two folders by default, where:
+The game is coded exclusively in Java with the JavaFX library that gives it its pop. The panel is created with much help from SceneBuilder, an application that works with JavaFX to provide skeleton FXML.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## How to Download
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+To download and play SETitaire, click the green Code button in the top right > Download ZIP. Then, open the project in your favorite IDE and hit Run. Required: Java SDK, JavaFX Referenced Libraries, runtime components included in the launch configurations.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## How to Play
 
-## Dependency Management
+To begin, hit the Deal Cards button. 
+Look for a SET. If one exists, type the pile number for each pile separated by spaces. Hit Enter.
+> If this trio is in fact a SET, your total will increase.
+> If this trio is NOT a SET, you will try again.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+If you cannot find a SET, hit Deal Cards again. Nine new cards will replace the original nine. However, those original cards are still there. As cards are removed from finding SETs, original cards will appear.
+
+The goal of the game is to empty as many piles as possible while finding as many SETs as possible.
+
