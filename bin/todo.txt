@@ -1,0 +1,15 @@
+- a 3x3 grid off to the side showing # cards in each pile
+- figure out how to create a new line in scenebuilder textfield
+- the hashing algo is a keystone; improve it
+
+Bonuses:
+- Why is a trio NOT a set?
+- Functionality for moving piles around
+- Documentation for functions
+- Error catching (like typing 10 in the box)
+- Figure out how to create a new line in scenebuilder
+
+
+Bugs:
+- sometimes, first deal has a blank card
+- sometimes, the same card can show up multiple times in one deal
